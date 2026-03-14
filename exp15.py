@@ -1,10 +1,5 @@
-def factorial():
-    n = int(input("Enter your number: "))
-    fact = 1
-
-    for i in range(1, n + 1):
-        fact = fact * i
-
-    print("Factorial:", fact)
-
-factorial()
+num1=int(input("enter first number :"))
+num2=int(input("enter second number :"))
+sum=num1+num2
+print("addition:",sum)
+input()
